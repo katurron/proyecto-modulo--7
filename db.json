@@ -1,0 +1,45 @@
+{
+  "libros": [
+    {
+      "titulo": "sub terra",
+      "autor": "dad",
+      "categoria": "Fantasía",
+      "descripcion": "adaddmm",
+      "portada": "",
+      "fechaRegistro": "2026-09-28",
+      "publicado": false,
+      "id": "fpPEjr7tIiI"
+    },
+    {
+      "titulo": "ss fsf",
+      "autor": "sfsf",
+      "categoria": "Fantasía",
+      "descripcion": "dadad",
+      "portada": "",
+      "fechaRegistro": "2026-09-28",
+      "publicado": false,
+      "id": "ck0JQVFK6Zw"
+    },
+    {
+      "titulo": "fsfs  df",
+      "autor": "saaa",
+      "categoria": "Fantasía",
+      "descripcion": "dddd",
+      "portada": "",
+      "fechaRegistro": "2026-09-28",
+      "publicado": false,
+      "id": "dp8WM8SOIKo"
+    },
+    {
+      "titulo": "jj",
+      "autor": "jk",
+      "categoria": "Ciencia ficción",
+      "descripcion": "jjn",
+      "portada": "",
+      "fechaRegistro": "2026-10-03",
+      "publicado": false,
+      "id": "MwcsVUounFI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

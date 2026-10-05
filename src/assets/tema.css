@@ -1,0 +1,55 @@
+:root {
+  color-scheme: light;
+  --bl-fondo: #f5f3ef;
+  --bl-panel: #ffffff;
+  --bl-texto: #252525;
+  --bl-secundario: #62605e;
+  --bl-acento: #6b4f3b;
+  --bl-suave: #eee7e1;
+  --bl-borde: #dfd6cf;
+  --bl-error: #a12c2c;
+  --el-color-primary: #6b4f3b;
+  --el-color-primary-light-3: #977765;
+  --el-color-primary-light-5: #b59e90;
+  --el-color-primary-light-7: #d3c5bd;
+  --el-color-primary-light-8: #e2d8d2;
+  --el-color-primary-light-9: #f0ebe8;
+  --el-color-primary-dark-2: #503b2c;
+}
+html.dark {
+  color-scheme: dark;
+  --bl-fondo: #1d1b19;
+  --bl-panel: #282522;
+  --bl-texto: #f2ece6;
+  --bl-secundario: #c1b8ae;
+  --bl-acento: #e5b68e;
+  --bl-suave: #38312b;
+  --bl-borde: #51463e;
+  --bl-error: #ffaaa3;
+  --el-bg-color: #282522;
+  --el-bg-color-page: #1d1b19;
+  --el-bg-color-overlay: #302b27;
+  --el-fill-color-blank: #282522;
+  --el-text-color-primary: #f2ece6;
+  --el-text-color-regular: #dfd5cb;
+  --el-text-color-secondary: #c1b8ae;
+  --el-color-primary: #e5b68e;
+  --el-color-primary-light-3: #eac6a6;
+  --el-color-primary-light-5: #85705d;
+  --el-color-primary-light-7: #584a3e;
+  --el-color-primary-light-8: #453a31;
+  --el-color-primary-light-9: #352e28;
+  --el-color-primary-dark-2: #cfa17a;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bl-fondo); color: var(--bl-texto); font-family: Arial, sans-serif; }
+.estructura-app { display: flex; flex-direction: column; min-height: 100vh; }
+.contenido { flex: 1; width: 100%; max-width: 1040px; margin: 0 auto; padding: 36px 24px; }
+button { font: inherit; cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+button:focus-visible, a:focus-visible { outline: 3px solid var(--bl-acento); outline-offset: 4px; }
+.error { color: var(--bl-error); }
+.etiqueta { color: var(--bl-acento); font-size: 13px; font-weight: bold; letter-spacing: .1em; text-transform: uppercase; }
+.encabezado { flex-wrap: wrap; gap: 16px; }
+html.dark .el-button--primary:not(.is-plain), html.dark .enlace-principal { color: #211b16; }
+@media (max-width: 600px) { .contenido { padding: 24px 16px; } .filtros { width: 100%; flex-basis: 100%; } }
